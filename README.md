@@ -1,2 +1,2 @@
 # Incampus-Walkthrough
-It is an app for  onboarding /walkthrough.
+It is an app displaying the onboarding /walkthrough screen.
