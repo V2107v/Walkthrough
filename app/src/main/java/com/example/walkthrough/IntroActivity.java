@@ -58,9 +58,9 @@ public class IntroActivity extends AppCompatActivity {
 
         //fill list screen
         final List<ScreenItem> mList = new ArrayList<>();
-        mList.add(new ScreenItem("Slide1","Hello, This is Incampus.",R.drawable.ic_arrow_forward_black_24dp));
-        mList.add(new ScreenItem("Slide2","Hello, This is Incampus.",R.drawable.ic_arrow_forward_black_24dp));
-        mList.add(new ScreenItem("Slide3","Hello, This is Incampus.",R.drawable.ic_arrow_forward_black_24dp));
+        mList.add(new ScreenItem("Slide1","Hello, Vaibhav This Side.",R.drawable.ic_arrow_forward_black_24dp));
+        mList.add(new ScreenItem("Slide2","Hello, Vaibhav This Side.",R.drawable.ic_arrow_forward_black_24dp));
+        mList.add(new ScreenItem("Slide3","Hello, Vaibhav This Side.",R.drawable.ic_arrow_forward_black_24dp));
 
 
         // setup viewpager
@@ -83,7 +83,6 @@ public class IntroActivity extends AppCompatActivity {
 
                 if (position == mList.size()-1){
                     //when we reach the last screen
-                    // TODO : show the GETSTARTED button and hide the indicator and next button
                     loadLastScreen();
                 }
             }
@@ -150,9 +149,7 @@ public class IntroActivity extends AppCompatActivity {
         btnNext.setVisibility(View.INVISIBLE);
         tabIndicator.setVisibility(View.INVISIBLE);
 
-        //TODO : Add an animation for getStarted button.
-
-        //lsetup animation
+        //lets setup animation
         btnGetStarted.setAnimation(btnAnim);
     }
 }
