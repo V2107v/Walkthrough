@@ -1,2 +1,2 @@
 # Walkthrough
-Just an onboarding /walkthrough screen.
+An onboarding /walkthrough screen.
